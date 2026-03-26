@@ -1,0 +1,85 @@
+/* LAYOUT */
+.player-layout {
+    display: flex;
+    gap: 20px;
+}
+
+/* VIDEO SECTION */
+.video-section {
+    flex: 3;
+}
+
+/* TOP BUTTONS */
+.top-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.top-actions button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    font-weight: 500;
+}
+
+/* VIDEO */
+video {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+.video-section h2 {
+    margin: 10px 0;
+}
+
+/* COMPLETE BUTTON */
+.complete-btn {
+    padding: 12px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #22c55e, #4ade80);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* LESSON LIST */
+.lesson-list {
+    flex: 1;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.lesson-list h3 {
+    margin-bottom: 15px;
+}
+
+.lesson-list ul {
+    list-style: none;
+}
+
+/* LESSON ITEM */
+.lesson-list li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #020617;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lesson-list li:hover {
+    background: #1e293b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .player-layout {
+        flex-direction: column;
+    }
+}

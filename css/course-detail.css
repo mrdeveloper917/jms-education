@@ -1,0 +1,26 @@
+.course-detail {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.course-detail h1 {
+    margin-bottom: 10px;
+}
+
+.course-detail p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.course-detail button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    font-weight: bold;
+    cursor: pointer;
+}

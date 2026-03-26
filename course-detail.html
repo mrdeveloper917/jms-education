@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Detail</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/course-detail.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+</head>
+
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="container">
+
+    <div class="course-detail">
+
+        <h1 id="course-title">Web Development</h1>
+        <p id="course-desc">HTML, CSS, JavaScript</p>
+
+        <!-- Progress -->
+        <div class="progress-bar">
+            <div class="progress" id="progress-bar"></div>
+        </div>
+
+        <p id="progress-text">0% Completed</p>
+
+        <!-- Buttons -->
+        <button onclick="increaseProgress()">Complete Lesson</button>
+
+    </div>
+
+</div>
+
+<div id="footer-container"></div>
+
+<script src="js/footer.js"></script>
+
+<script src="js/navbar.js"></script>
+<script src="js/course.js"></script>
+
+</body>
+</html>

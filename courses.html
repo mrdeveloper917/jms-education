@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Courses</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="courses-header">
+        <h1>📚 My Courses</h1>
+        <p>Continue your learning journey 🚀</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="courses-grid">
+
+        <!-- COURSE 1 -->
+        <div class="course-card">
+            <span class="badge">🔥 Popular</span>
+            <h2>Web Development</h2>
+            <p>HTML, CSS, JavaScript</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="web-progress"></div>
+            </div>
+
+            <span id="web-text">80% Complete</span>
+
+            <button onclick="openCourse('web')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+        <!-- COURSE 2 -->
+        <div class="course-card">
+            <span class="badge">⭐ Trending</span>
+            <h2>React JS</h2>
+            <p>Frontend Development</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="react-progress"></div>
+            </div>
+
+            <span id="react-text">60% Complete</span>
+
+            <button onclick="openCourse('react')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+        <!-- COURSE 3 -->
+        <div class="course-card">
+            <span class="badge">📊 Data</span>
+            <h2>Data Science</h2>
+            <p>Python + ML</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="data-progress"></div>
+            </div>
+
+            <span id="data-text">40% Complete</span>
+
+            <button onclick="openCourse('data')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+        <!-- COURSE 4 -->
+        <div class="course-card">
+            <span class="badge">⚡ Fast</span>
+            <h2>Java Programming</h2>
+            <p>Core + OOP Concepts</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="java-progress"></div>
+            </div>
+
+            <span id="java-text">70% Complete</span>
+
+            <button onclick="openCourse('java')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+        <!-- COURSE 5 -->
+        <div class="course-card">
+            <span class="badge">🌐 Backend</span>
+            <h2>PHP & MySQL</h2>
+            <p>Server-side Development</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="php-progress"></div>
+            </div>
+
+            <span id="php-text">50% Complete</span>
+
+            <button onclick="openCourse('php')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+        <!-- COURSE 6 -->
+        <div class="course-card">
+            <span class="badge">📱 Mobile</span>
+            <h2>React Native</h2>
+            <p>App Development</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="rn-progress"></div>
+            </div>
+
+            <span id="rn-text">30% Complete</span>
+
+            <button onclick="openCourse('rn')">Continue</button>
+
+            <button class="cert-btn" onclick="viewCertificate('web')">
+        View Certificate
+    </button>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="footer-container"></div>
+
+<script src="js/footer.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/progress.js"></script>
+
+</body>
+</html>

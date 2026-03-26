@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Player</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="container player-layout">
+
+    <!-- VIDEO SECTION -->
+    <div class="video-section">
+
+        <!-- TOP BUTTONS -->
+        <div class="top-actions">
+            <button onclick="goBack()">⬅ Back</button>
+            <button onclick="openDetail()">📄 Course Detail</button>
+            <button onclick="viewCertificate()">🏆 Certificate</button>
+        </div>
+
+        <!-- VIDEO -->
+        <video id="videoPlayer" controls>
+            <source src="assets/sample.mp4" type="video/mp4">
+        </video>
+
+        <!-- TITLE -->
+        <h2 id="courseTitle">Course Title</h2>
+
+        <!-- PROGRESS BUTTON -->
+        <button class="complete-btn" onclick="markComplete()">
+            Mark Lesson Complete
+        </button>
+
+    </div>
+
+    <!-- SIDEBAR LESSONS -->
+    <div class="lesson-list">
+        <h3>📚 Lessons</h3>
+
+        <ul>
+            <li onclick="playLesson(1)">▶ Lesson 1 - Introduction</li>
+            <li onclick="playLesson(2)">▶ Lesson 2 - Basics</li>
+            <li onclick="playLesson(3)">▶ Lesson 3 - Advanced</li>
+        </ul>
+    </div>
+
+</div>
+
+<div id="footer-container"></div>
+
+<script src="js/footer.js"></script>
+
+<script src="js/navbar.js"></script>
+<script src="js/player.js"></script>
+
+</body>
+</html>
